@@ -1,0 +1,42 @@
+.galleryLink
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    font-weight: 800;
+    color:  dimgray;
+    background: #074f57;
+    background-image: url(imageSmall.jpg);
+    padding-top: 200px;
+    padding-bottom: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.header p {
+    font-size: 28px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    display: flex;
+    gap: 1em;
+}
+
+a:visited 
+{
+    text-decoration: none;
+}
