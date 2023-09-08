@@ -26,7 +26,11 @@
     font-size: 28px;
 }
 
-a:link {
+a { 
+    text-decoration: none;
+}
+
+a:visited {
     text-decoration: none;
     color: black;
 }
@@ -34,9 +38,4 @@ a:link {
 .links {
     display: flex;
     gap: 1em;
-}
-
-a:visited 
-{
-    text-decoration: none;
 }

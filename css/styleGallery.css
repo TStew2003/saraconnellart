@@ -41,7 +41,10 @@
     font-size: 28px;
 }
 
-a:link {
+a {
+    text-decoration: none;
+}
+a:visited {
     text-decoration: none;
     color: black;
 }
@@ -58,8 +61,4 @@ display: block;
 text-align: center;
 margin-bottom: 64px;
 font-weight: 200;
-}
-
-a:visited {
-text-decoration: none;
 }

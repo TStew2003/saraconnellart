@@ -29,12 +29,17 @@ img {
     font-size: 28px;
 }
 
-a:link {
+a { 
+    text-decoration: none;
+}
+
+a:visited {
     text-decoration: none;
     color: black;
 }
 
 .links {
+    text-decoration: none;
     display: flex;
     gap: 1em;
 }
@@ -47,6 +52,3 @@ h1{
     margin-bottom: 64px;
 }
 
-a:visited {
-    text-decoration: none;
-}
