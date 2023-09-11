@@ -1,19 +1,37 @@
-
+* {
+        font-family: "Raleway";
+}
 img {
-    width: 300px;
-    height: 400px;
+    width: 50%;
+    min-width: none;
+    height: auto;
 }
 
+@media(max-Width:1150px){
+    .picText{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+}
 .picText
 {
     display: flex;
-    gap: 5em;
+    gap: 3em;
     justify-content: center;
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
 }
 
 .picText p 
 {
     padding: 12px;
+    font-size: 20px;
 }
 
 
