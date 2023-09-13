@@ -1,29 +1,8 @@
-var i = 0; 
-var images = [];
-var time = 3000;
+const menu_btn = document.querySelector('.hamburger');
+const mobile_menu= document.querySelector('.mobile-nav');
 
-images[0] = '../images/IMG_6661.JPG';
-images[1] = '../images/IMG_2107.jpeg';
-images[2] = '../images/IMG_2117.jpeg';
-images[3] = '../images/IMG_7769.JPG';
-images[4] = '../images/IMG_0557.jpeg';
-images[5] = '../images/IMG_9823.jpg.jpeg';
+menu_btn.addEventListener('click', function (){
 
-
-
-
-function changeImg(){
-    document.slide.src = images[i];
-
-
-    if(i < images.length - 1){
-        i++;
-    }
-    else {
-        i = 0; 
-    }
-
-    setTimeout("changeImg()", time);
-}
-
-window.onload = changeImg;
+    menu_btn.classList.toggle('is-active');
+    mobile_menu.classList.toggle('is-active');
+});
