@@ -1,14 +1,12 @@
-* {
-        font-family: "Raleway";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+
 }
-img {
-    width: 50%;
-    min-width: none;
-    height: auto;
-}
+
 .hero {
-    width: 100%;
-    height: 100vh;
     background-image: linear-gradient(rgba(12,3,51,0.3,), rgba(12,3,51,0.3,));
     position: relative;
     padding: 0 5%;
@@ -17,17 +15,63 @@ img {
     justify-content: center;
 }
 
-@media(max-Width:1150px){
-    .picText{
-        flex-direction: column;
-        align-items: center;
-    }
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/headerBanner.jpeg") ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+nav .logo {
+    width: 400px;
+    font-weight: 300;
+    font-size: 50px;
+    color: #fff;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block; 
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+ .content {
+    text-align:left;
+    background-color: #fff;
+    padding: 35px;
+    margin-top: 100px;
+ }
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.content h1 {
+    margin-bottom: 30px;
+    font-size: 56px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .paragraph {
     display: flex;
     flex-direction: column;
 }
+
 .picText
 {
     display: flex;
@@ -43,5 +87,25 @@ img {
     padding: 12px;
     font-size: 20px;
 }
+
+.back-photo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+ @media (min-aspect-ratio: 16/9){
+    .back-photo{
+        width: 100%;
+        height: auto;
+    }
+ }
+ @media (max-aspect-ratio: 16/9){
+    .back-photo{
+        width: auto;
+        height: 100%;
+    }
+ }
 
 
