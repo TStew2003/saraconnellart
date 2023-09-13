@@ -11,7 +11,7 @@
     font-weight: 800;
     color:  dimgray;
     background-image: url(imageSmall.jpg);
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +26,7 @@
 }
 
 .header p {
-    font-size: 28px;
+    font-size: 36px;
 }
 
 a { 
