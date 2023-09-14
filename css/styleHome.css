@@ -29,6 +29,7 @@ nav{
 }
 
 nav .logo {
+    flex-wrap: nowrap;
     width: 400px;
     font-weight: 300;
     font-size: 50px;
@@ -186,6 +187,17 @@ nav ul li a {
 
     .hamburger {
         display: none;
+    }
+ }
+
+ @media( max-width:832px)
+ {
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .content a {
+       font-size: 16px;
     }
  }
 
