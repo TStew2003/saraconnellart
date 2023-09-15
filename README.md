@@ -1,2 +1,0 @@
-# saraconnellart
-Art portfolio website
